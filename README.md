@@ -1,49 +1,46 @@
 # Aditya Khetarpal
 
-Reliable edge-to-cloud systems engineer building dual-core RTOS firmware, native BLE systems, offline-first mobile sync, health pipelines, and on-device intelligence.
+Reliable edge-to-cloud systems engineer building connected-device platforms across firmware, native mobile, sync infrastructure, and personalized intelligence.
 
-I design connected-device platforms end to end: embedded firmware, protocol transport, native mobile runtimes, local-first data layers, backend sync infrastructure, and personalized intelligence systems. My work focuses on reliability, explicit state handling, bounded background processing, and architectures that remain stable under real-world failure modes.
+I work across the full system boundary: dual-core RTOS firmware, binary BLE transport, native iOS and Android runtimes, offline-first local data layers, backend sync and worker infrastructure, and intelligence systems grounded in real device and health context.
 
-## Core systems focus
+My focus is production-grade software that remains correct, observable, and recoverable under real-world constraints: partial failure, retries, stale state, background execution limits, power interruption, and long-lived distributed workflows.
+
+## What I build
 
 ### Edge firmware
-Dual-core RTOS firmware, multithreaded task design, binary BLE protocol transport, OTA recovery, deep sleep power management, sensor calibration, and on-device inference.
+Dual-core RTOS firmware for connected devices, with clear separation between timing-sensitive paths and background work. This includes BLE protocol transport, OTA delivery and rollback, deep sleep and wake handling, calibration under noisy physical conditions, and constrained on-device inference.
 
 ### Native mobile systems
-Swift and Kotlin BLE runtimes, restoration and reconnection flows, background-safe device communication, HealthKit ingestion, and local-first mobile architecture.
+Native iOS and Android runtimes for BLE connectivity, restoration, reconnection, and background-safe device communication. I design mobile architectures that stay coherent under intermittent networks, large health backfills, interrupted sessions, and lifecycle-driven execution limits.
 
 ### Data reliability and sync
-SQLite as the interaction source of truth, transactional outbox, cursor-based pull sync, tombstones, ID mapping, conflict-aware reconciliation, and bounded background workers.
+Offline-first data systems built around local state as a durable interaction layer. My work here includes SQLite-first UX, transactional outbox patterns, cursor-based sync, tombstones, ID mapping, and reconciliation paths that remain safe under retries, duplicates, partial success, and long offline windows.
+
+### Cloud and worker infrastructure
+Backend APIs, queue-backed workers, realtime delivery, and bounded processing pipelines designed for correctness under failure. I care about idempotency, explicit latency budgets, observability, controlled fan-out, and systems that degrade deliberately rather than fail invisibly.
 
 ### Intelligence and personalization
-TinyML pipelines, structured longitudinal memory, similarity-based retrieval across comparable user states, and tool-enabled personalized intelligence grounded in device and health context.
+TinyML and personalization systems built as product infrastructure rather than model wrappers. This includes structured longitudinal memory, retrieval across comparable user states, and tool-enabled intelligence grounded in trusted data paths, explicit controls, and interpretable fallback behavior.
 
-## Flagship projects
+## Selected projects
 
 - **[ESP32-S3 Edge Firmware Platform](#)**  
-  Dual-core FreeRTOS firmware with binary BLE transport, OTA recovery, deep sleep, calibration logic, and TinyML services.
+  Dual-core FreeRTOS firmware with binary BLE transport, OTA recovery, deep sleep, calibration logic, and on-device intelligence.
 
 - **[Offline-First Mobile Device Platform](#)**  
-  Native BLE runtime, Health ingestion pipelines, SQLite-first UX, and transactional sync architecture.
+  Native BLE runtime, health ingestion pipelines, SQLite-first UX, and transactional sync architecture.
 
 - **[Device Cloud & Sync Backend](#)**  
-  Queue-backed workers, cursor sync, conflict resolution, telemetry, health processing, and reliability-focused backend services.
+  Queue-backed workers, realtime delivery, cursor sync, conflict resolution, telemetry, and reliability-focused backend services.
 
 - **[TinyML Sensor Intelligence Lab](#)**  
   Dataset logging, baseline-vs-model evaluation, on-device inference, and personalization on constrained hardware.
 
-## Engineering principles
+## Built for production reality
 
-- Reliability before gloss
-- Explicit state machines over hidden coupling
-- Local-first and offline-safe data flows
-- Fail-fast validation and observable failures
-- Bounded queues, bounded work, bounded retries
-- Clear separation between hot paths and background work
+I’m interested in systems that hold up outside the happy path: retries, duplicates, reordering, stale caches, torn writes, queue backlogs, reconnect storms, mixed-version rollouts, and partial infrastructure failure. The goal is not just shipping features, but building systems that are explicit in state, bounded in work, and recoverable when distributed reality shows up.
 
 ## Areas I work across
 
-`Embedded Systems` `FreeRTOS` `BLE` `Swift` `Kotlin` `React Native` `SQLite` `Transactional Outbox` `Cursor Sync` `Redis Workers` `Health Data Pipelines` `OTA` `TinyML` `Personalization`
-
-
-
+`Embedded Systems` `FreeRTOS` `BLE` `Swift` `Kotlin` `SQLite` `Offline-First Sync` `Transactional Outbox` `Cursor-Based Reconciliation` `Redis Workers` `Health Data Pipelines` `OTA` `TinyML` `Personalization`
