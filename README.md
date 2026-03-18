@@ -43,4 +43,4 @@ I’m interested in systems that hold up outside the happy path: retries, duplic
 
 ## Areas I work across
 
-`ESP32-S3 / FreeRTOS` `BLE / NimBLE / Binary Protocols` `Swift / Kotlin` `React / React Native / TypeScript` `SQLite / Offline-First Architecture` `Transactional Outbox / Cursor-Based Sync` `PostgreSQL / Prisma / Redis` `BullMQ / WebSockets / Realtime Systems` `HealthKit / Health Data Pipelines` `OTA / Low-Power Embedded Systems` `TinyML / Edge AI` `Hybrid AI / Personalization / Predictive Analytics`
+`Multithreading / Microcontrollers / FreeRTOS` `BLE / NimBLE / Binary Protocols` `Swift / Kotlin` `React / React Native / TypeScript` `SQLite / Offline-First Architecture` `Transactional Outbox / Cursor-Based Sync` `PostgreSQL / Prisma / Redis` `BullMQ / WebSockets / Realtime Systems` `HealthKit / Health Data Pipelines` `OTA / Low-Power Embedded Systems` `TinyML / Edge AI` `Hybrid AI / Personalization / Predictive Analytics`
