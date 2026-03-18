@@ -45,5 +45,5 @@ TinyML pipelines, structured longitudinal memory, similarity-based retrieval acr
 
 `Embedded Systems` `FreeRTOS` `BLE` `Swift` `Kotlin` `React Native` `SQLite` `Transactional Outbox` `Cursor Sync` `Redis Workers` `Health Data Pipelines` `OTA` `TinyML` `Personalization`
 
-## Contact
+
 
