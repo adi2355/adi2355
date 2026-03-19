@@ -59,18 +59,18 @@ TinyML and personalization systems built as product infrastructure rather than m
 
 ## Selected Projects
 
-- **ESP32-S3 Edge Firmware Platform**  
+- **[ESP32-S3 Edge Firmware Platform](https://github.com/adi2355/YOUR-REPO-NAME-1)**  
   Dual-core FreeRTOS firmware with binary BLE transport, OTA recovery, deep sleep, calibration logic, and on-device intelligence.
 
-- **Offline-First Mobile Device Platform**  
+- **[Offline-First Mobile Device Platform](https://github.com/adi2355/YOUR-REPO-NAME-2)**  
   Native BLE runtime, health ingestion pipelines, SQLite-first UX, and transactional sync architecture.
 
-- **Device Cloud & Sync Backend**  
+- **[Device Cloud & Sync Backend](https://github.com/adi2355/YOUR-REPO-NAME-3)**  
   Queue-backed workers, realtime delivery, cursor sync, conflict resolution, telemetry, and reliability-focused backend services.
 
-- **TinyML Sensor Intelligence Lab**  
+- **[TinyML Sensor Intelligence Lab](https://github.com/adi2355/YOUR-REPO-NAME-4)**  
   Dataset logging, baseline-vs-model evaluation, on-device inference, and personalization on constrained hardware.
-
+  
 ## Connect With Me
 
 <p>
