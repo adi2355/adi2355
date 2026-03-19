@@ -5,10 +5,11 @@
 
 # Aditya Khetarpal
 Reliable edge-to-cloud systems engineer building connected-device platforms across firmware, native mobile, sync infrastructure, and personalized intelligence.
+My focus is production-grade software that remains correct, observable, and recoverable under real-world constraints like partial failure, retries, stale state, background execution limits, power interruption, and long-lived distributed workflows.
 
-I work across the full system boundary: dual-core RTOS firmware, binary BLE transport, native iOS and Android runtimes, offline-first local data layers, backend sync and worker infrastructure, and intelligence systems grounded in real device and health context.
+## Areas I work across
 
-My focus is production-grade software that remains correct, observable, and recoverable under real-world constraints: partial failure, retries, stale state, background execution limits, power interruption, and long-lived distributed workflows.
+`Microcontrollers` `Multithreading / FreeRTOS` `BLE / NimBLE` `Binary Protocols` `Swift / Kotlin` `React Native`  `JavaScript / TypeScript` `SQLite / Offline-First Architecture` `Transactional Outbox / Cursor-Based Sync` `PostgreSQL` `Redis` `BullMQ / Background Workers`  `WebSockets / Realtime Systems` `HealthKit / Health Data Pipelines` `OTA / Low-Power Embedded Systems` `TinyML / Edge AI` `Personalization / Predictive Analytics`
 
 ## What I build
 
@@ -45,6 +46,4 @@ TinyML and personalization systems built as product infrastructure rather than m
 
 I’m interested in systems that hold up outside the happy path: retries, duplicates, reordering, stale caches, torn writes, queue backlogs, reconnect storms, mixed-version rollouts, and partial infrastructure failure. The goal is not just shipping features, but building systems that are explicit in state, bounded in work, and recoverable when distributed reality shows up.
 
-## Areas I work across
 
-`Multithreading / Microcontrollers / FreeRTOS` `BLE / NimBLE / Binary Protocols` `Swift / Kotlin` `React / React Native / TypeScript` `SQLite / Offline-First Architecture` `Transactional Outbox / Cursor-Based Sync` `PostgreSQL / Prisma / Redis` `BullMQ / WebSockets / Realtime Systems` `HealthKit / Health Data Pipelines` `OTA / Low-Power Embedded Systems` `TinyML / Edge AI` `Hybrid AI / Personalization / Predictive Analytics`
