@@ -3,7 +3,7 @@
   Built around production systems, connected devices, and reliability-first engineering.
 -->
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=1B2430&height=120&section=header"/>
+<img width="100%" src="<img width="100%" src="<img width="100%" src="https://capsule-render.vercel.app/api?type=rounded&height=100&color=0b1220&section=header" alt="header"/>"/>"/>
 
 <a href="https://git.io/typing-svg">
   <img
