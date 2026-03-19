@@ -1,6 +1,5 @@
-
 <p align="center">
-    <img src="./banner.gif" alt="Aditya profile banner" width="100%" />
+  <img src="./banner.gif" alt="Aditya profile banner" width="100%" />
 </p>
 
 Reliable edge-to-cloud systems engineer building production-grade firmware, native mobile, offline-first sync, and backend systems that stay correct, observable, and recoverable under real-world constraints.
@@ -19,16 +18,15 @@ Reliable edge-to-cloud systems engineer building production-grade firmware, nati
 **Intelligence**  
 `TinyML / Edge AI` `Personalization / Predictive Analytics`
 
-
 ## Tools & Technologies
 
 <p>
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=c,cpp,java,kotlin,js,ts,py,bash,react,swift,nodejs,express,postgres,redis,prisma,sqlite,docker,linux,aws,terraform,github,gitlab,githubactions,jenkins,postman,pycharm,firebase,sentry&theme=dark&perline=15" width="580" />
+    <img src="https://skillicons.dev/icons?i=c,cpp,java,kotlin,js,ts,py,bash,react,swift,nodejs,express,postgres,redis,prisma,sqlite,docker,linux,aws,terraform,github,gitlab,githubactions,jenkins,postman,pycharm,firebase,sentry&theme=dark&perline=14" width="570" />
   </a>
 </p>
-</p>
-### What I build
+
+## What I Build
 
 ### Edge firmware
 Dual-core RTOS firmware for connected devices, with clear separation between timing-sensitive paths and background work. This includes BLE protocol transport, OTA delivery and rollback, deep sleep and wake handling, calibration under noisy physical conditions, and constrained on-device inference.
@@ -45,7 +43,7 @@ Backend APIs, queue-backed workers, realtime delivery, and bounded processing pi
 ### Intelligence and personalization
 TinyML and personalization systems built as product infrastructure rather than model wrappers. This includes structured longitudinal memory, retrieval across comparable user states, and tool-enabled intelligence grounded in trusted data paths, explicit controls, and interpretable fallback behavior.
 
-## Selected projects
+## Selected Projects
 
 - **[ESP32-S3 Edge Firmware Platform](#)**  
   Dual-core FreeRTOS firmware with binary BLE transport, OTA recovery, deep sleep, calibration logic, and on-device intelligence.
@@ -59,8 +57,6 @@ TinyML and personalization systems built as product infrastructure rather than m
 - **[TinyML Sensor Intelligence Lab](#)**  
   Dataset logging, baseline-vs-model evaluation, on-device inference, and personalization on constrained hardware.
 
-## Built for production reality
+## Built for Production Reality
 
 I’m interested in systems that hold up outside the happy path: retries, duplicates, reordering, stale caches, torn writes, queue backlogs, reconnect storms, mixed-version rollouts, and partial infrastructure failure. The goal is not just shipping features, but building systems that are explicit in state, bounded in work, and recoverable when distributed reality shows up.
-
-
