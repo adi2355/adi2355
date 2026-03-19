@@ -40,6 +40,6 @@
   <line x1="15" y1="42" x2="1185" y2="42" stroke="#c5beb6" stroke-opacity="0.95"/>
 
   <!-- open body hint only -->
-  <rect x="15" y="42" width="1170" height="14" fill="url(#bodyGlow)"/>
-  <rect x="15" y="42" width="1170" height="26" fill="url(#fadeDown)"/>
+  <rect x="15" y="42" width="1168" height="14" fill="url(#bodyGlow)"/>
+  <rect x="15" y="40" width="1168" height="22" fill="url(#fadeDown)"/>
 </svg>
