@@ -1,6 +1,7 @@
 <p align="center">
-  <img src="./banner.gif" alt="Aditya profile banner" width="794" />
+    <img src="./banner-2x.gif" alt="Aditya profile banner" width="900" />
 </p>
+
 
 # Aditya Khetarpal
 
