@@ -4,7 +4,7 @@
 -->
 
 <div>
-  <img src="./terminal-top.svg" alt="Terminal top bar" width="100%" />
+  <img src="./header-terminal.svg" alt="Terminal top bar" width="100%" />
   <a href="https://git.io/typing-svg">
     <img
       src="https://readme-typing-svg.demolab.com/?font=VT323&size=34&duration=3000&pause=1200&color=9FEFAD&background=00000000&center=false&vCenter=true&repeat=true&width=760&height=42&lines=%3E+reliability-first+systems_"
