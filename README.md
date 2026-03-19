@@ -3,7 +3,7 @@
   Built around production systems, connected devices, and reliability-first engineering.
 -->
 
-<img width="100%" src="https://gradient-svg-generator.vercel.app/api/svg?text=Observable%20Systems&template=electromagnetic-field&height=120" alt="header"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=1B2430&height=120&section=header"/>
 
 <a href="https://git.io/typing-svg">
   <img
