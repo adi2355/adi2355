@@ -19,19 +19,12 @@ Reliable edge-to-cloud systems engineer building production-grade firmware, nati
 **Intelligence**  
 `TinyML / Edge AI` `Personalization / Predictive Analytics`
 
-## Tech Stack
-
-**Languages:** C, C++, Java, Kotlin, JavaScript, TypeScript, Python, Bash  
-**Mobile:** React Native, Swift, Kotlin  
-**Backend:** Node.js, Express, PostgreSQL, Redis, Prisma, SQLite  
-**Cloud / Infra / DevOps:** AWS, Docker, Linux, Terraform, GitHub, GitLab, GitHub Actions, Jenkins  
-**Tools / Analytics:** Postman, PyCharm, Firebase, Sentry
 
 ## Tools & Technologies
 
 <p>
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=c,cpp,java,kotlin,js,ts,py,bash,react,swift,nodejs,express,postgres,redis,prisma,sqlite,docker,linux,aws,terraform,github,gitlab,githubactions,jenkins,postman,pycharm,firebase,sentry&theme=dark&perline=8" width="540" />
+    <img src="https://skillicons.dev/icons?i=c,cpp,java,kotlin,js,ts,py,bash,react,swift,nodejs,express,postgres,redis,prisma,sqlite,docker,linux,aws,terraform,github,gitlab,githubactions,jenkins,postman,pycharm,firebase,sentry&theme=dark&perline=10" width="540" />
   </a>
 </p>
 </p>
