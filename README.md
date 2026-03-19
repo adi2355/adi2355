@@ -5,14 +5,12 @@
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=1B2430&height=120&section=header" alt="header"/>
 
-<p>
-  <a href="https://git.io/typing-svg">
-    <img
-      src="https://readme-typing-svg.demolab.com/?font=VT323&size=34&duration=3000&pause=1000&color=F6C177&background=0D111700&vCenter=true&width=720&height=60&lines=%3E+Aditya+Khetarpal;%3E+Systems+Engineer;%3E+Edge-to-Cloud+Platforms"
-      alt="Typing SVG"
-    />
-  </a>
-</p>
+<a href="https://git.io/typing-svg">
+  <img
+    src="https://readme-typing-svg.demolab.com/?font=VT323&size=34&duration=3200&pause=1200&color=9FEFAD&background=0D111700&vCenter=true&width=720&height=52&lines=%3E+reliability-first+systems;%3E+edge-to-cloud+platforms"
+    alt="Typing SVG"
+  />
+</a>
 
 <p align="center">
   <img src="./banner.gif" alt="Aditya profile banner" width="100%" />
