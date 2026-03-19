@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="./banner-2x.gif" alt="Aditya profile banner" align=center width="75%" />
+    <img src="./banner-2x.gif" alt="Aditya profile banner" width="150%" />
 </p>
 
 
