@@ -28,7 +28,7 @@ Reliable edge-to-cloud systems engineer building production-grade firmware, nati
   </a>
 </p>
 </p>
-## What I build
+### What I build
 
 ### Edge firmware
 Dual-core RTOS firmware for connected devices, with clear separation between timing-sensitive paths and background work. This includes BLE protocol transport, OTA delivery and rollback, deep sleep and wake handling, calibration under noisy physical conditions, and constrained on-device inference.
