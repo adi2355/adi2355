@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./sources/banner.gif" alt="Aditya profile banner" width="100%" />
+  <img src="./banner.gif" alt="Aditya profile banner" width="100%" />
 </p>
 
 # Aditya Khetarpal
