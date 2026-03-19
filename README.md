@@ -3,26 +3,76 @@
     <img src="./banner.gif" alt="Aditya profile banner" width="100%" />
 </p>
 
-# Aditya Khetarpal
-Reliable edge-to-cloud systems engineer my focus is production-grade software that remains correct, observable, and recoverable under real-world constraints like partial failure, retries, stale state, background execution limits, power interruption, and long-lived distributed workflows.
+<p align="center">
+  Reliable edge-to-cloud systems engineer building production-grade firmware, native mobile, offline-first sync, and backend systems that stay correct, observable, and recoverable under real-world constraints.
+</p>
 
-## Areas I Work Across
+<h2 align="center">Areas I Work Across</h2>
 
-`Microcontrollers` • `Multithreading / FreeRTOS` • `BLE / NimBLE` • `Binary Protocols` • `Swift / Kotlin` • `React Native` • `JavaScript / TypeScript` • `SQLite / Offline-First Architecture` • `Transactional Outbox / Cursor-Based Sync` • `PostgreSQL` • `Redis` • `BullMQ / Background Workers` • `WebSockets / Realtime Systems` • `HealthKit / Health Data Pipelines` • `OTA / Low-Power Embedded Systems` • `TinyML / Edge AI` • `Personalization / Predictive Analytics`
+<p align="center">
+  <code>Microcontrollers</code>
+  <code>Multithreading / FreeRTOS</code>
+  <code>BLE / NimBLE</code>
+  <code>Binary Protocols</code>
+  <code>OTA / Low-Power Embedded Systems</code>
+</p>
 
-## Tech Stack
+<p align="center">
+  <code>Swift / Kotlin</code>
+  <code>React Native</code>
+  <code>JavaScript / TypeScript</code>
+  <code>SQLite / Offline-First Architecture</code>
+  <code>Transactional Outbox / Cursor-Based Sync</code>
+</p>
 
-**Languages:** C, C++, Java, Kotlin, JavaScript, TypeScript, Python, Bash  
-**Mobile:** React Native, Swift, Kotlin  
-**Backend:** Node.js, Express, PostgreSQL, Redis, Prisma, SQLite  
-**Cloud / Infra / DevOps:** AWS, Docker, Linux, Terraform, GitHub, GitLab, GitHub Actions, Jenkins  
-**Tools / Analytics:** Postman, PyCharm, Firebase, Sentry
+<p align="center">
+  <code>PostgreSQL</code>
+  <code>Redis</code>
+  <code>BullMQ / Background Workers</code>
+  <code>WebSockets / Realtime Systems</code>
+  <code>HealthKit / Health Data Pipelines</code>
+</p>
 
-## Tools & Technologies
+<p align="center">
+  <code>TinyML / Edge AI</code>
+  <code>Personalization / Predictive Analytics</code>
+</p>
+
+<h2 align="center">Tech Stack</h2>
+
+<p align="center">
+  <strong>Languages</strong><br/>
+  C · C++ · Java · Kotlin · JavaScript · TypeScript · Python · Bash
+</p>
+
+<p align="center">
+  <strong>Mobile</strong><br/>
+  React Native · Swift · Kotlin
+</p>
+
+<p align="center">
+  <strong>Backend</strong><br/>
+  Node.js · Express · PostgreSQL · Redis · Prisma · SQLite
+</p>
+
+<p align="center">
+  <strong>Cloud / Infra / DevOps</strong><br/>
+  AWS · Docker · Linux · Terraform · GitHub · GitLab · GitHub Actions · Jenkins
+</p>
+
+<p align="center">
+  <strong>Tools / Analytics</strong><br/>
+  Postman · PyCharm · Firebase · Sentry
+</p>
+
+<h2 align="center">Tools & Technologies</h2>
 
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=c,cpp,java,kotlin,js,ts,py,bash,react,swift,express,nodejs,postgres,redis,prisma,sqlite,docker,linux,aws,terraform,github,gitlab,githubactions,jenkins,postman,pycharm,firebase,sentry&perline=7" />
+    <img
+      src="https://skillicons.dev/icons?i=c,cpp,java,kotlin,js,ts,py,bash,react,swift,express,nodejs,postgres,redis,prisma,sqlite,docker,linux,aws,terraform,github,gitlab,githubactions,jenkins,postman,pycharm,firebase,sentry&theme=dark&perline=7"
+      width="720"
+    />
   </a>
 </p>
 
