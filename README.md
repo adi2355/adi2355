@@ -1,9 +1,9 @@
-# Aditya Khetarpal
+
 <p align="center">
     <img src="./banner.gif" alt="Aditya profile banner" width="100%" />
 </p>
 
-
+# Aditya Khetarpal
 Reliable edge-to-cloud systems engineer building connected-device platforms across firmware, native mobile, sync infrastructure, and personalized intelligence.
 
 I work across the full system boundary: dual-core RTOS firmware, binary BLE transport, native iOS and Android runtimes, offline-first local data layers, backend sync and worker infrastructure, and intelligence systems grounded in real device and health context.
