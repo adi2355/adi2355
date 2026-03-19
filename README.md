@@ -7,6 +7,14 @@
 Reliable edge-to-cloud systems engineer building connected-device platforms across firmware, native mobile, sync infrastructure, and personalized intelligence.
 My focus is production-grade software that remains correct, observable, and recoverable under real-world constraints like partial failure, retries, stale state, background execution limits, power interruption, and long-lived distributed workflows.
 
+## Tools & Technologies
+
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=c,cpp,java,kotlin,js,ts,py,bash,react,swift,express,nodejs,postgres,redis,prisma,sqlite,docker,linux,aws,terraform,github,gitlab,githubactions,jenkins,postman,pycharm,firebase,sentry&perline=7" />
+  </a>
+</p>
+
 ## Areas I work across
 
 `Microcontrollers` • `Multithreading / FreeRTOS` • `BLE / NimBLE` • `Binary Protocols` • `Swift / Kotlin` • `React Native` • `JavaScript / TypeScript` • `SQLite / Offline-First Architecture` • `Transactional Outbox / Cursor-Based Sync` • `PostgreSQL` • `Redis` • `BullMQ / Background Workers` • `WebSockets / Realtime Systems` • `HealthKit / Health Data Pipelines` • `OTA / Low-Power Embedded Systems` • `TinyML / Edge AI` • `Personalization / Predictive Analytics`
