@@ -33,7 +33,7 @@ Reliable edge-to-cloud systems engineer building production-grade firmware, nati
 `Microcontrollers` `Multithreading / FreeRTOS` `BLE / NimBLE` `Binary Protocols` `OTA / Low-Power Embedded Systems`
 
 **Mobile**  
-`Native Runtimes - Swift / Kotlin` `React Native` `JavaScript / TypeScript` `Android HealthConnect / Apple HealthKit / Health Data Ingestion Pipelines`
+`Native Runtimes - Swift / Kotlin` `React Native - JavaScript / TypeScript` `Android HealthConnect / Apple HealthKit / Health Data Ingestion Pipelines`
 
 **Data & Backend**  
 `SQLite / Offline-First Architecture` `Transactional Outbox / Cursor-Based Sync` `PostgreSQL` `Redis` `BullMQ / Background Workers` `WebSockets / Realtime Systems`
