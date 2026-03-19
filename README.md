@@ -4,8 +4,7 @@
 </p>
 
 # Aditya Khetarpal
-Reliable edge-to-cloud systems engineer building connected-device platforms across firmware, native mobile, sync infrastructure, and personalized intelligence.
-My focus is production-grade software that remains correct, observable, and recoverable under real-world constraints like partial failure, retries, stale state, background execution limits, power interruption, and long-lived distributed workflows.
+Reliable edge-to-cloud systems engineer my focus is production-grade software that remains correct, observable, and recoverable under real-world constraints like partial failure, retries, stale state, background execution limits, power interruption, and long-lived distributed workflows.
 
 ## Tools & Technologies
 
