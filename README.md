@@ -9,7 +9,7 @@ My focus is production-grade software that remains correct, observable, and reco
 
 ## Areas I work across
 
-`Microcontrollers` `Multithreading / FreeRTOS` `BLE / NimBLE` `Binary Protocols` `Swift / Kotlin` `React Native`  `JavaScript / TypeScript` `SQLite / Offline-First Architecture` `Transactional Outbox / Cursor-Based Sync` `PostgreSQL` `Redis` `BullMQ / Background Workers`  `WebSockets / Realtime Systems` `HealthKit / Health Data Pipelines` `OTA / Low-Power Embedded Systems` `TinyML / Edge AI` `Personalization / Predictive Analytics`
+`Microcontrollers` • `Multithreading / FreeRTOS` • `BLE / NimBLE` • `Binary Protocols` • `Swift / Kotlin` • `React Native` • `JavaScript / TypeScript` • `SQLite / Offline-First Architecture` • `Transactional Outbox / Cursor-Based Sync` • `PostgreSQL` • `Redis` • `BullMQ / Background Workers` • `WebSockets / Realtime Systems` • `HealthKit / Health Data Pipelines` • `OTA / Low-Power Embedded Systems` • `TinyML / Edge AI` • `Personalization / Predictive Analytics`
 
 ## What I build
 
