@@ -1,61 +1,45 @@
-<svg width="794" height="68" viewBox="0 0 794 68" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">Terminal style GitHub header band</title>
-  <desc id="desc">A minimal macOS terminal inspired header strip with window controls and a small reliability log title.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 60" role="img" aria-labelledby="title">
+  <title id="title">Terminal top bar</title>
+
   <defs>
-    <linearGradient id="frameFill" x1="397" y1="8" x2="397" y2="60" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#DED9D1"/>
-      <stop offset="1" stop-color="#C9C2BA"/>
+    <linearGradient id="bodyGlow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#10352b" stop-opacity="0.70"/>
+      <stop offset="20%" stop-color="#1b7a57" stop-opacity="0.35"/>
+      <stop offset="55%" stop-color="#111822" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#0d1117" stop-opacity="0"/>
     </linearGradient>
-    <linearGradient id="barFill" x1="397" y1="9" x2="397" y2="26" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#E4DED6"/>
-      <stop offset="1" stop-color="#CDC6BE"/>
+
+    <linearGradient id="fadeDown" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0d1117" stop-opacity="0.92"/>
+      <stop offset="100%" stop-color="#0d1117" stop-opacity="0"/>
     </linearGradient>
-    <linearGradient id="panelFill" x1="397" y1="26" x2="397" y2="59" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#1B1D20"/>
-      <stop offset="1" stop-color="#212225"/>
-    </linearGradient>
-    <radialGradient id="screenGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(172 43) rotate(2.94598) scale(230 24)">
-      <stop stop-color="#183F35"/>
-      <stop offset="0.34" stop-color="#102A24"/>
-      <stop offset="1" stop-color="#1A1C1F" stop-opacity="0"/>
-    </radialGradient>
-    <linearGradient id="scanline" x1="0" y1="0" x2="0" y2="8" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#FFFFFF" stop-opacity="0.03"/>
-      <stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0"/>
-      <stop offset="1" stop-color="#000000" stop-opacity="0.08"/>
-    </linearGradient>
-    <pattern id="scanlines" x="0" y="0" width="8" height="8" patternUnits="userSpaceOnUse">
-      <rect width="794" height="8" fill="url(#scanline)"/>
-    </pattern>
-    <filter id="shadow" x="0" y="0" width="794" height="68" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#000000" flood-opacity="0.22"/>
-    </filter>
-    <filter id="glow" x="0" y="0" width="794" height="68" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-      <feGaussianBlur stdDeviation="5" result="blur"/>
-      <feColorMatrix in="blur" type="matrix" values="1 0 0 0 0  0 1 0 0 0.28  0 0 1 0 0.14  0 0 0 0.42 0"/>
-    </filter>
   </defs>
 
-  <g filter="url(#shadow)">
-    <rect x="18" y="8" width="758" height="52" rx="12" fill="url(#frameFill)" stroke="#B4ADA5" stroke-opacity="0.88"/>
-    <rect x="18.5" y="8.5" width="757" height="51" rx="11.5" stroke="#FFFFFF" stroke-opacity="0.22"/>
+  <!-- top title bar -->
+  <rect x="14" y="10" width="1172" height="28" rx="14" fill="#d7d2cb" stroke="#b8b1a8"/>
 
-    <rect x="19" y="9" width="756" height="17" rx="11" fill="url(#barFill)"/>
-    <path d="M28 26H766" stroke="#B7B0A8"/>
-    <path d="M28 27H766" stroke="#FFFFFF" stroke-opacity="0.22"/>
+  <!-- window dots -->
+  <circle cx="38" cy="24" r="5" fill="#ff5f56"/>
+  <circle cx="60" cy="24" r="5" fill="#ffbd2e"/>
+  <circle cx="82" cy="24" r="5" fill="#27c93f"/>
 
-    <circle cx="35" cy="17.5" r="3.2" fill="#FE6157"/>
-    <circle cx="48" cy="17.5" r="3.2" fill="#FDBD31"/>
-    <circle cx="61" cy="17.5" r="3.2" fill="#2FCB44"/>
+  <!-- centered title -->
+  <text
+    x="600"
+    y="28"
+    text-anchor="middle"
+    font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
+    font-size="14"
+    letter-spacing="1.1"
+    fill="#514b46"
+  >
+    reliability.log
+  </text>
 
-    <text x="397" y="20.5" fill="#5C5853" font-family="Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="9.4" text-anchor="middle" letter-spacing="0.06em">reliability.log</text>
+  <!-- seam under top bar -->
+  <line x1="15" y1="38" x2="1185" y2="38" stroke="#c5beb6" stroke-opacity="0.95"/>
 
-    <rect x="19" y="26" width="756" height="33" rx="0 0 11 11" fill="url(#panelFill)"/>
-    <rect x="19" y="26" width="756" height="33" rx="0 0 11 11" fill="url(#screenGlow)"/>
-    <rect x="19" y="26" width="756" height="33" rx="0 0 11 11" fill="url(#scanlines)" opacity="0.34"/>
-
-    <g filter="url(#glow)">
-      <rect x="46" y="37" width="150" height="7" rx="3.5" fill="#90D59B" fill-opacity="0.16"/>
-    </g>
-  </g>
+  <!-- open body hint only -->
+  <rect x="15" y="38" width="1170" height="8" fill="url(#bodyGlow)"/>
+  <rect x="15" y="38" width="1170" height="16" fill="url(#fadeDown)"/>
 </svg>
