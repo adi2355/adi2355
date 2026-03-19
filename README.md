@@ -1,8 +1,32 @@
+<!--
+  Hi, and welcome to my GitHub profile.
+  Built around production systems, connected devices, and reliability-first engineering.
+-->
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=1B2430&height=120&section=header" alt="header"/>
+
+<p align="center">
+  <a href="https://git.io/typing-svg">
+    <img
+      src="https://readme-typing-svg.herokuapp.com?font=Montserrat&weight=500&size=24&duration=4000&pause=800&color=C9A96E&center=true&vCenter=true&width=700&lines=Hi%2C+I'm+Aditya+Khetarpal;Systems+Engineer;Edge-to-Cloud+Platforms"
+      alt="Typing SVG"
+    />
+  </a>
+</p>
+
 <p align="center">
   <img src="./banner.gif" alt="Aditya profile banner" width="100%" />
 </p>
 
 Reliable edge-to-cloud systems engineer building production-grade firmware, native mobile, offline-first sync, and backend systems that stay correct, observable, and recoverable under real-world constraints.
+
+## Tools & Technologies
+
+<p>
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=c,cpp,java,kotlin,js,ts,py,bash,react,swift,nodejs,express,postgres,redis,prisma,sqlite,docker,linux,aws,terraform,github,gitlab,githubactions,jenkins,postman,pycharm,firebase,sentry&theme=dark&perline=14" width="570" />
+  </a>
+</p>
 
 ## Areas I Work Across
 
@@ -17,14 +41,6 @@ Reliable edge-to-cloud systems engineer building production-grade firmware, nati
 
 **Intelligence**  
 `TinyML / Edge AI` `Personalization / Predictive Analytics`
-
-## Tools & Technologies
-
-<p>
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=c,cpp,java,kotlin,js,ts,py,bash,react,swift,nodejs,express,postgres,redis,prisma,sqlite,docker,linux,aws,terraform,github,gitlab,githubactions,jenkins,postman,pycharm,firebase,sentry&theme=dark&perline=14" width="570" />
-  </a>
-</p>
 
 ## What I Build
 
@@ -45,18 +61,33 @@ TinyML and personalization systems built as product infrastructure rather than m
 
 ## Selected Projects
 
-- **[ESP32-S3 Edge Firmware Platform](#)**  
+- **ESP32-S3 Edge Firmware Platform**  
   Dual-core FreeRTOS firmware with binary BLE transport, OTA recovery, deep sleep, calibration logic, and on-device intelligence.
 
-- **[Offline-First Mobile Device Platform](#)**  
+- **Offline-First Mobile Device Platform**  
   Native BLE runtime, health ingestion pipelines, SQLite-first UX, and transactional sync architecture.
 
-- **[Device Cloud & Sync Backend](#)**  
+- **Device Cloud & Sync Backend**  
   Queue-backed workers, realtime delivery, cursor sync, conflict resolution, telemetry, and reliability-focused backend services.
 
-- **[TinyML Sensor Intelligence Lab](#)**  
+- **TinyML Sensor Intelligence Lab**  
   Dataset logging, baseline-vs-model evaluation, on-device inference, and personalization on constrained hardware.
 
-## Built for Production Reality
+## Connect With Me
 
-I’m interested in systems that hold up outside the happy path: retries, duplicates, reordering, stale caches, torn writes, queue backlogs, reconnect storms, mixed-version rollouts, and partial infrastructure failure. The goal is not just shipping features, but building systems that are explicit in state, bounded in work, and recoverable when distributed reality shows up.
+<p>
+  <a href="https://www.linkedin.com/in/aditya-khetarpal/">
+    <img src="https://skillicons.dev/icons?i=linkedin" alt="LinkedIn" />
+  </a>
+  <a href="https://github.com/adi2355">
+    <img src="https://skillicons.dev/icons?i=github" alt="GitHub" />
+  </a>
+</p>
+
+## Employer?
+
+> [!IMPORTANT]
+> [View my resume](#)  
+> [Connect on LinkedIn](https://www.linkedin.com/in/aditya-khetarpal/)
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=1B2430&height=120&section=footer" alt="footer"/>
