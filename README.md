@@ -3,79 +3,37 @@
     <img src="./banner.gif" alt="Aditya profile banner" width="100%" />
 </p>
 
-<p align="center">
-  Reliable edge-to-cloud systems engineer building production-grade firmware, native mobile, offline-first sync, and backend systems that stay correct, observable, and recoverable under real-world constraints.
-</p>
+Reliable edge-to-cloud systems engineer building production-grade firmware, native mobile, offline-first sync, and backend systems that stay correct, observable, and recoverable under real-world constraints.
 
-<h2 align="center">Areas I Work Across</h2>
+## Areas I Work Across
 
-<p align="center">
-  <code>Microcontrollers</code>
-  <code>Multithreading / FreeRTOS</code>
-  <code>BLE / NimBLE</code>
-  <code>Binary Protocols</code>
-  <code>OTA / Low-Power Embedded Systems</code>
-</p>
+**Embedded**  
+`Microcontrollers` `Multithreading / FreeRTOS` `BLE / NimBLE` `Binary Protocols` `OTA / Low-Power Embedded Systems`
 
-<p align="center">
-  <code>Swift / Kotlin</code>
-  <code>React Native</code>
-  <code>JavaScript / TypeScript</code>
-  <code>SQLite / Offline-First Architecture</code>
-  <code>Transactional Outbox / Cursor-Based Sync</code>
-</p>
+**Mobile**  
+`Swift / Kotlin` `React Native` `JavaScript / TypeScript` `HealthKit / Health Data Pipelines`
 
-<p align="center">
-  <code>PostgreSQL</code>
-  <code>Redis</code>
-  <code>BullMQ / Background Workers</code>
-  <code>WebSockets / Realtime Systems</code>
-  <code>HealthKit / Health Data Pipelines</code>
-</p>
+**Data & Backend**  
+`SQLite / Offline-First Architecture` `Transactional Outbox / Cursor-Based Sync` `PostgreSQL` `Redis` `BullMQ / Background Workers` `WebSockets / Realtime Systems`
 
-<p align="center">
-  <code>TinyML / Edge AI</code>
-  <code>Personalization / Predictive Analytics</code>
-</p>
+**Intelligence**  
+`TinyML / Edge AI` `Personalization / Predictive Analytics`
 
-<h2 align="center">Tech Stack</h2>
+## Tech Stack
 
-<p align="center">
-  <strong>Languages</strong><br/>
-  C · C++ · Java · Kotlin · JavaScript · TypeScript · Python · Bash
-</p>
+**Languages:** C, C++, Java, Kotlin, JavaScript, TypeScript, Python, Bash  
+**Mobile:** React Native, Swift, Kotlin  
+**Backend:** Node.js, Express, PostgreSQL, Redis, Prisma, SQLite  
+**Cloud / Infra / DevOps:** AWS, Docker, Linux, Terraform, GitHub, GitLab, GitHub Actions, Jenkins  
+**Tools / Analytics:** Postman, PyCharm, Firebase, Sentry
 
-<p align="center">
-  <strong>Mobile</strong><br/>
-  React Native · Swift · Kotlin
-</p>
+## Tools & Technologies
 
-<p align="center">
-  <strong>Backend</strong><br/>
-  Node.js · Express · PostgreSQL · Redis · Prisma · SQLite
-</p>
-
-<p align="center">
-  <strong>Cloud / Infra / DevOps</strong><br/>
-  AWS · Docker · Linux · Terraform · GitHub · GitLab · GitHub Actions · Jenkins
-</p>
-
-<p align="center">
-  <strong>Tools / Analytics</strong><br/>
-  Postman · PyCharm · Firebase · Sentry
-</p>
-
-<h2 align="center">Tools & Technologies</h2>
-
-<p align="center">
+<p>
   <a href="https://skillicons.dev">
-    <img
-      src="https://skillicons.dev/icons?i=c,cpp,java,kotlin,js,ts,py,bash,react,swift,express,nodejs,postgres,redis,prisma,sqlite,docker,linux,aws,terraform,github,gitlab,githubactions,jenkins,postman,pycharm,firebase,sentry&theme=dark&perline=7"
-      width="720"
-    />
+    <img src="https://skillicons.dev/icons?i=c,cpp,java,kotlin,js,ts,py,bash,react,swift,nodejs,express,postgres,redis,prisma,sqlite,docker,linux,aws,terraform,github,gitlab,githubactions,jenkins,postman,pycharm,firebase,sentry&theme=dark&perline=7" width="672" />
   </a>
 </p>
-
 ## What I build
 
 ### Edge firmware
