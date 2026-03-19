@@ -3,14 +3,15 @@
   Built around production systems, connected devices, and reliability-first engineering.
 -->
 
-<img src="./header-terminal.svg" alt="Terminal header" width="100%" />
-
-<a href="https://git.io/typing-svg">
-  <img
-    src="https://readme-typing-svg.demolab.com/?font=VT323&size=34&duration=3200&pause=1200&color=9FEFAD&background=0D111700&vCenter=true&width=720&height=52&lines=%3E+reliability-first+systems;%3E+edge-to-cloud+platforms"
-    alt="Typing SVG"
-  />
-</a>
+<div>
+  <img src="./terminal-top.svg" alt="Terminal top bar" width="100%" />
+  <a href="https://git.io/typing-svg">
+    <img
+      src="https://readme-typing-svg.demolab.com/?font=VT323&size=34&duration=3000&pause=1200&color=9FEFAD&background=00000000&center=false&vCenter=true&repeat=true&width=760&height=42&lines=%3E+reliability-first+systems_"
+      alt="terminal headline"
+    />
+  </a>
+</div>
 
 <p align="center">
   <img src="./banner.gif" alt="Aditya profile banner" width="100%" />
