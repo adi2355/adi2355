@@ -55,7 +55,7 @@ Backend APIs, queue-backed workers, and bounded processing pipelines designed fo
 <img src="https://skillicons.dev/icons?i=cpp,swift,kotlin,java,ts,js,py&theme=dark" height="36" alt="Languages" />
 
 **Data & Storage** <br>
-<img src="https://skillicons.dev/icons?i=sqlite,postgres,redis,cassandra,firebase,mongodb,dynamodb&theme=dark" height="36" alt="Databases" />
+<img src="https://skillicons.dev/icons?i=sqlite,postgres,redis,cassandra,mongodb,dynamodb&theme=dark" height="36" alt="Databases" />
 
 **Frameworks & Observability** <br>
 <img src="https://skillicons.dev/icons?i=nodejs,express,react,sentry,grafana,prometheus,cloudwatch&theme=dark" height="36" alt="Frameworks" />
