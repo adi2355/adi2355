@@ -23,27 +23,27 @@
       <stop offset="100%" stop-color="#0d131b" stop-opacity="0"/>
     </linearGradient>
 
-    <!-- top-rounded / flat-bottom outer shape perfectly flush to edges -->
+    <!-- Shape inset by exactly 6px on both sides to match the pixel art border -->
     <path id="panelShape" d="
-      M 16 0
-      H 1184
-      Q 1200 0 1200 16
+      M 22 0
+      H 1178
+      Q 1194 0 1194 16
       V 160
-      H 0
+      H 6
       V 16
-      Q 0 0 16 0
+      Q 6 0 22 0
       Z
     " />
   </defs>
 
   <!-- unified outer body with flat bottom -->
-  <use href="#panelShape" fill="url(#bodyFill)" stroke="#202833" stroke-opacity="0.9"/>
+  <use href="#panelShape" fill="url(#bodyFill)"/>
 
   <!-- title bar -->
   <rect
-    x="0"
+    x="6"
     y="0"
-    width="1200"
+    width="1188"
     height="32"
     rx="16"
     fill="url(#barFill)"
@@ -53,27 +53,27 @@
 
   <!-- flatten lower corners of title bar so it feels attached -->
   <rect
-    x="0"
+    x="6"
     y="16"
-    width="1200"
+    width="1188"
     height="16"
     fill="url(#barFill)"
   />
 
   <!-- top inner highlight -->
   <rect
-    x="1"
+    x="7"
     y="1"
-    width="1198"
+    width="1186"
     height="10"
     rx="15"
     fill="url(#topGlow)"
   />
 
-  <!-- window dots (slightly larger and centered in new thicker bar) -->
-  <circle cx="24" cy="16" r="5" fill="#f06a61"/>
-  <circle cx="44" cy="16" r="5" fill="#ddb14c"/>
-  <circle cx="64" cy="16" r="5" fill="#58bb69"/>
+  <!-- window dots -->
+  <circle cx="30" cy="16" r="5" fill="#f06a61"/>
+  <circle cx="50" cy="16" r="5" fill="#ddb14c"/>
+  <circle cx="70" cy="16" r="5" fill="#58bb69"/>
 
   <!-- centered title -->
   <text
@@ -90,9 +90,9 @@
 
   <!-- seam under title bar -->
   <line
-    x1="0"
+    x1="6"
     y1="32"
-    x2="1200"
+    x2="1194"
     y2="32"
     stroke="#bfb7ae"
     stroke-opacity="0.32"
@@ -100,7 +100,7 @@
 
   <!-- terminal text -->
   <text
-    x="42"
+    x="48"
     y="96"
     font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
     font-size="26"
@@ -111,7 +111,7 @@
   </text>
 
   <text
-    x="42"
+    x="48"
     y="124"
     font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
     font-size="14"
@@ -122,5 +122,5 @@
   </text>
 
   <!-- subtle fade so the bottom feels open into the scene below -->
-  <rect x="0" y="144" width="1200" height="16" fill="url(#bottomBlend)" />
+  <rect x="6" y="144" width="1188" height="16" fill="url(#bottomBlend)" />
 </svg>
