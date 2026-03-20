@@ -7,78 +7,68 @@
   <img src="./banner-2x.gif" alt="Aditya profile banner" width="100%" />
 </div>
 
-<p align="center">
-  **Reliable edge-to-cloud software engineer** building production-grade firmware, native mobile, offline-first sync, and backend systems that stay correct, observable, and recoverable under real-world constraints.
-</p>
+<br>
 
-## Tools & Technologies
+<div align="center">
+  <h3>Reliable edge-to-cloud software engineering.</h3>
+  <p>Building production-grade firmware, native mobile, offline-first sync, and backend systems that stay correct, observable, and recoverable under real-world constraints.</p>
+</div>
 
-<p>
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=c,cpp,java,kotlin,js,ts,py,bash,react,swift,nodejs,express,postgres,redis,prisma,sqlite,docker,linux,aws,terraform,github,gitlab,githubactions,jenkins,postman,pycharm,firebase,sentry&theme=dark&perline=14" width="570" />
-  </a>
-</p>
+<br>
 
-## Areas I Work Across
+## Core Domains
 
-**Embedded**  
-`Microcontrollers` `Multithreading / FreeRTOS` `BLE / NimBLE` `Binary Protocols` `OTA / Low-Power Embedded Systems`
+### Edge Firmware
+Dual-core RTOS firmware with clear separation between timing-sensitive paths and background work. Built for OTA recovery, deep sleep, physical calibration, and constrained on-device inference.
+> Microcontrollers · FreeRTOS · BLE / NimBLE · Binary Protocols · Low-Power Architecture
 
-**Mobile**  
-`Native Runtimes - Swift / Kotlin` `React Native - JavaScript / TypeScript` `Android HealthConnect / Apple HealthKit / Health Data Ingestion Pipelines`
+### Native Mobile Systems
+iOS and Android runtimes designed for BLE connectivity, restoration, and background-safe device communication. Architectures that stay coherent under intermittent networks and lifecycle limits.
+> Swift · Kotlin · React Native · HealthConnect · HealthKit Ingestion Pipelines
 
-**Data & Backend**  
-`SQLite / Offline-First Architecture` `Transactional Outbox / Cursor-Based Sync` `PostgreSQL` `Redis` `BullMQ / Background Workers` `WebSockets / Realtime Systems`
+### Data Reliability & Sync
+Offline-first data systems built around local state as a durable interaction layer. Reconciliation paths designed to remain safe under retries, partial success, and long offline windows.
+> SQLite · Transactional Outbox · Cursor-Based Sync · PostgreSQL · Redis
 
-**Intelligence**  
-`TinyML / Edge AI` `Personalization / Predictive Analytics`
+### Cloud & Worker Infrastructure
+Backend APIs, queue-backed workers, and bounded processing pipelines designed for correctness under failure. Includes tool-enabled intelligence grounded in trusted data paths and explicit controls.
+> Node.js · BullMQ · WebSockets · Edge AI / TinyML · Predictive Analytics
 
-## What I Build
-
-### Edge firmware
-Dual-core RTOS firmware for connected devices, with clear separation between timing-sensitive paths and background work. This includes BLE protocol transport, OTA delivery and rollback, deep sleep and wake handling, calibration under noisy physical conditions, and constrained on-device inference.
-
-### Native mobile systems
-Native iOS and Android runtimes for BLE connectivity, restoration, reconnection, and background-safe device communication. I design mobile architectures that stay coherent under intermittent networks, large health backfills, interrupted sessions, and lifecycle-driven execution limits.
-
-### Data reliability and sync
-Offline-first data systems built around local state as a durable interaction layer. My work here includes SQLite-first UX, transactional outbox patterns, cursor-based sync, tombstones, ID mapping, and reconciliation paths that remain safe under retries, duplicates, partial success, and long offline windows.
-
-### Cloud and worker infrastructure
-Backend APIs, queue-backed workers, realtime delivery, and bounded processing pipelines designed for correctness under failure. I care about idempotency, explicit latency budgets, observability, controlled fan-out, and systems that degrade deliberately rather than fail invisibly.
-
-### Intelligence and personalization
-TinyML and personalization systems built as product infrastructure rather than model wrappers. This includes structured longitudinal memory, retrieval across comparable user states, and tool-enabled intelligence grounded in trusted data paths, explicit controls, and interpretable fallback behavior.
+<br>
 
 ## Selected Projects
 
-- **[ESP32-S3 Edge Firmware Platform](https://github.com/adi2355/YOUR-REPO-NAME-1)**  
+* **[ESP32-S3 Edge Firmware Platform](https://github.com/adi2355/YOUR-REPO-NAME-1)**  
   Dual-core FreeRTOS firmware with binary BLE transport, OTA recovery, deep sleep, calibration logic, and on-device intelligence.
 
-- **[Offline-First Mobile Device Platform](https://github.com/adi2355/YOUR-REPO-NAME-2)**  
+* **[Offline-First Mobile Device Platform](https://github.com/adi2355/YOUR-REPO-NAME-2)**  
   Native BLE runtime, health ingestion pipelines, SQLite-first UX, and transactional sync architecture.
 
-- **[Device Cloud & Sync Backend](https://github.com/adi2355/YOUR-REPO-NAME-3)**  
+* **[Device Cloud & Sync Backend](https://github.com/adi2355/YOUR-REPO-NAME-3)**  
   Queue-backed workers, realtime delivery, cursor sync, conflict resolution, telemetry, and reliability-focused backend services.
 
-- **[TinyML Sensor Intelligence Lab](https://github.com/adi2355/YOUR-REPO-NAME-4)**  
+* **[TinyML Sensor Intelligence Lab](https://github.com/adi2355/YOUR-REPO-NAME-4)**  
   Dataset logging, baseline-vs-model evaluation, on-device inference, and personalization on constrained hardware.
-  
-## Connect With Me
+
+<br>
+
+## Core Stack
 
 <p>
-  <a href="https://www.linkedin.com/in/aditya-khetarpal/">
-    <img src="https://skillicons.dev/icons?i=linkedin" alt="LinkedIn" />
-  </a>
-  <a href="https://github.com/adi2355">
-    <img src="https://skillicons.dev/icons?i=github" alt="GitHub" />
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=c,cpp,java,kotlin,js,ts,py,bash,react,swift,nodejs,express,postgres,redis,prisma,sqlite,docker,linux,aws,terraform,github,gitlab,githubactions,jenkins,postman,pycharm,firebase,sentry&theme=dark&perline=14" width="570" alt="Languages, Frameworks, and Infrastructure" />
   </a>
 </p>
 
-## Employer?
+<br><br>
 
-> [!IMPORTANT]
-> [View my resume](#)  
-> [Connect on LinkedIn](https://www.linkedin.com/in/aditya-khetarpal/)
+<div align="center">
+  <h2>Open to Opportunities</h2>
+  <p>Looking to build reliable, production-grade systems? Let's connect.</p>
+  <p>
+    <a href="YOUR_RESUME_LINK_HERE">View Resume</a> &nbsp;·&nbsp;
+    <a href="https://www.linkedin.com/in/aditya-khetarpal/">LinkedIn</a>
+  </p>
+</div>
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=1B2430&height=120&section=footer" alt="footer"/>
