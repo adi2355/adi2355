@@ -52,7 +52,7 @@ Backend APIs, queue-backed workers, and bounded processing pipelines designed fo
 ## Core Stack
 
 **Languages** <br>
-<img src="https://skillicons.dev/icons?i=cpp,swift,kotlin,java,ts,js,py,bash&theme=dark" height="36" alt="Languages" />
+<img src="https://skillicons.dev/icons?i=cpp,swift,kotlin,java,ts,js,py&theme=dark" height="36" alt="Languages" />
 
 **Data & Storage** <br>
 <img src="https://skillicons.dev/icons?i=sqlite,postgres,redis,cassandra,firebase,mongodb,dynamodb&theme=dark" height="36" alt="Databases" />
