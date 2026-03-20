@@ -52,16 +52,16 @@ Backend APIs, queue-backed workers, and bounded processing pipelines designed fo
 ## Core Stack
 
 **Languages** <br>
-<img src="https://skillicons.dev/icons?i=cpp,swift,kotlin,java,ts,js,py,sql&theme=dark" height="36" alt="Languages" />
+<img src="https://skillicons.dev/icons?i=cpp,swift,kotlin,java,ts,js,py&theme=dark" height="36" alt="Languages" />
 
 **Data & Storage** <br>
 <img src="https://skillicons.dev/icons?i=sqlite,postgres,redis,cassandra,mongodb,dynamodb&theme=dark" height="36" alt="Databases" />
 
 **Frameworks & Observability** <br>
-<img src="https://skillicons.dev/icons?i=nodejs,express,expo,react,sentry,grafana,prometheus,cloudwatch&theme=dark" height="36" alt="Frameworks" />
+<img src="https://skillicons.dev/icons?i=nodejs,express,langchain,react,sentry,grafana,prometheus,cloudwatch&theme=dark" height="36" alt="Frameworks" />
 
 **Infrastructure & Tooling** <br>
-<img src="https://skillicons.dev/icons?i=aws,docker,linux,terraform,githubactions,jenkins,postman,kafka,github,jest&theme=dark" height="36" alt="Infrastructure" />
+<img src="https://skillicons.dev/icons?i=aws,gcp,docker,linux,terraform,githubactions,jenkins,postman,kafka,github,jest&theme=dark" height="36" alt="Infrastructure" />
 
 <br><br>
 
