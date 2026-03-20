@@ -1,0 +1,141 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 960" role="img">
+  <defs>
+    <!-- Apple-style Glass Card Background -->
+    <linearGradient id="cardBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.03"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.01"/>
+    </linearGradient>
+
+    <!-- Subtle edge highlights -->
+    <linearGradient id="cardEdge" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.02"/>
+    </linearGradient>
+
+    <!-- Icon Glows -->
+    <radialGradient id="glowFirmware" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#f06a61" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#f06a61" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowMobile" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#58bb69" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#58bb69" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowData" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#3b82f6" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#3b82f6" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowCloud" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ddb14c" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#ddb14c" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Global typography settings -->
+  <g font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif">
+    
+    <!-- HEADLINE SECTION -->
+    <text x="600" y="80" fill="#ffffff" font-size="38" font-weight="700" text-anchor="middle" letter-spacing="-0.5">
+      Reliable edge-to-cloud software engineering.
+    </text>
+    <text x="600" y="125" fill="#94a0ac" font-size="18" font-weight="400" text-anchor="middle" letter-spacing="0.2">
+      Building production-grade firmware, native mobile, offline-first sync,
+    </text>
+    <text x="600" y="155" fill="#94a0ac" font-size="18" font-weight="400" text-anchor="middle" letter-spacing="0.2">
+      and backend systems that stay correct, observable, and recoverable.
+    </text>
+
+    <!-- GRID ROW 1 -->
+    <!-- Card 1: Edge Firmware -->
+    <g transform="translate(20, 220)">
+      <rect width="570" height="340" rx="24" fill="url(#cardBg)" stroke="url(#cardEdge)" stroke-width="1.5"/>
+      <circle cx="64" cy="64" r="50" fill="url(#glowFirmware)"/>
+      <rect x="48" y="48" width="32" height="32" rx="8" fill="#f06a61" fill-opacity="0.15" stroke="#f06a61" stroke-width="1.5"/>
+      <path d="M58 58 h12 v12 h-12 z M58 54 v-2 M64 54 v-2 M70 54 v-2 M58 74 v2 M64 74 v2 M70 74 v2 M54 58 h-2 M54 64 h-2 M54 70 h-2 M74 58 h2 M74 64 h2 M74 70 h2" stroke="#f06a61" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+      
+      <text x="48" y="130" fill="#ffffff" font-size="22" font-weight="600">Edge Firmware</text>
+      <text x="48" y="170" fill="#8b949e" font-size="15" font-weight="400">
+        <tspan x="48" dy="0">Dual-core RTOS firmware with clear separation</tspan>
+        <tspan x="48" dy="24">between timing-sensitive paths and background</tspan>
+        <tspan x="48" dy="24">work. Built for OTA recovery, deep sleep, physical</tspan>
+        <tspan x="48" dy="24">calibration, and constrained on-device inference.</tspan>
+      </text>
+      <text x="48" y="295" fill="#f3c57c" font-family="ui-monospace, SFMono-Regular, monospace" font-size="12" letter-spacing="0.5">
+        Microcontrollers · FreeRTOS · BLE/NimBLE
+      </text>
+      <text x="48" y="315" fill="#f3c57c" font-family="ui-monospace, SFMono-Regular, monospace" font-size="12" letter-spacing="0.5">
+        Binary Protocols · Low-Power Arch
+      </text>
+    </g>
+
+    <!-- Card 2: Native Mobile -->
+    <g transform="translate(610, 220)">
+      <rect width="570" height="340" rx="24" fill="url(#cardBg)" stroke="url(#cardEdge)" stroke-width="1.5"/>
+      <circle cx="64" cy="64" r="50" fill="url(#glowMobile)"/>
+      <rect x="48" y="48" width="32" height="32" rx="8" fill="#58bb69" fill-opacity="0.15" stroke="#58bb69" stroke-width="1.5"/>
+      <rect x="56" y="54" width="16" height="20" rx="3" stroke="#58bb69" stroke-width="1.5" fill="none"/>
+      <line x1="60" y1="70" x2="68" y2="70" stroke="#58bb69" stroke-width="1.5" stroke-linecap="round"/>
+      
+      <text x="48" y="130" fill="#ffffff" font-size="22" font-weight="600">Native Mobile Systems</text>
+      <text x="48" y="170" fill="#8b949e" font-size="15" font-weight="400">
+        <tspan x="48" dy="0">iOS and Android runtimes designed for BLE</tspan>
+        <tspan x="48" dy="24">connectivity, restoration, and background-safe</tspan>
+        <tspan x="48" dy="24">communication. Architectures that stay coherent</tspan>
+        <tspan x="48" dy="24">under intermittent networks and lifecycle limits.</tspan>
+      </text>
+      <text x="48" y="295" fill="#58bb69" font-family="ui-monospace, SFMono-Regular, monospace" font-size="12" letter-spacing="0.5">
+        Swift · Kotlin · React Native
+      </text>
+      <text x="48" y="315" fill="#58bb69" font-family="ui-monospace, SFMono-Regular, monospace" font-size="12" letter-spacing="0.5">
+        HealthConnect · HealthKit Pipelines
+      </text>
+    </g>
+
+    <!-- GRID ROW 2 -->
+    <!-- Card 3: Data Reliability -->
+    <g transform="translate(20, 580)">
+      <rect width="570" height="340" rx="24" fill="url(#cardBg)" stroke="url(#cardEdge)" stroke-width="1.5"/>
+      <circle cx="64" cy="64" r="50" fill="url(#glowData)"/>
+      <rect x="48" y="48" width="32" height="32" rx="8" fill="#3b82f6" fill-opacity="0.15" stroke="#3b82f6" stroke-width="1.5"/>
+      <ellipse cx="64" cy="58" rx="8" ry="3" stroke="#3b82f6" stroke-width="1.5" fill="none"/>
+      <path d="M56 58 v8 c0 1.6 3.6 3 8 3 s8 -1.4 8 -3 v-8 M56 66 v4 c0 1.6 3.6 3 8 3 s8 -1.4 8 -3 v-4" stroke="#3b82f6" stroke-width="1.5" fill="none"/>
+
+      <text x="48" y="130" fill="#ffffff" font-size="22" font-weight="600">Data Reliability &amp; Sync</text>
+      <text x="48" y="170" fill="#8b949e" font-size="15" font-weight="400">
+        <tspan x="48" dy="0">Offline-first data systems built around local</tspan>
+        <tspan x="48" dy="24">state as a durable interaction layer. Reconciliation</tspan>
+        <tspan x="48" dy="24">paths designed to remain safe under retries,</tspan>
+        <tspan x="48" dy="24">partial success, and long offline windows.</tspan>
+      </text>
+      <text x="48" y="295" fill="#66a3ff" font-family="ui-monospace, SFMono-Regular, monospace" font-size="12" letter-spacing="0.5">
+        SQLite · Transactional Outbox
+      </text>
+      <text x="48" y="315" fill="#66a3ff" font-family="ui-monospace, SFMono-Regular, monospace" font-size="12" letter-spacing="0.5">
+        Cursor-Based Sync · PostgreSQL · Redis
+      </text>
+    </g>
+
+    <!-- Card 4: Cloud & Worker -->
+    <g transform="translate(610, 580)">
+      <rect width="570" height="340" rx="24" fill="url(#cardBg)" stroke="url(#cardEdge)" stroke-width="1.5"/>
+      <circle cx="64" cy="64" r="50" fill="url(#glowCloud)"/>
+      <rect x="48" y="48" width="32" height="32" rx="8" fill="#ddb14c" fill-opacity="0.15" stroke="#ddb14c" stroke-width="1.5"/>
+      <path d="M54 60 h20 M54 64 h12 M66 56 l4 4 l-4 4" stroke="#ddb14c" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+
+      <text x="48" y="130" fill="#ffffff" font-size="22" font-weight="600">Cloud &amp; Worker Infrastructure</text>
+      <text x="48" y="170" fill="#8b949e" font-size="15" font-weight="400">
+        <tspan x="48" dy="0">Backend APIs, queue-backed workers, and bounded</tspan>
+        <tspan x="48" dy="24">processing pipelines designed for correctness under</tspan>
+        <tspan x="48" dy="24">failure. Includes tool-enabled intelligence grounded</tspan>
+        <tspan x="48" dy="24">in trusted data paths and explicit controls.</tspan>
+      </text>
+      <text x="48" y="295" fill="#ddb14c" font-family="ui-monospace, SFMono-Regular, monospace" font-size="12" letter-spacing="0.5">
+        Node.js · BullMQ · WebSockets
+      </text>
+      <text x="48" y="315" fill="#ddb14c" font-family="ui-monospace, SFMono-Regular, monospace" font-size="12" letter-spacing="0.5">
+        Edge AI / TinyML · Predictive Analytics
+      </text>
+    </g>
+
+  </g>
+</svg>
