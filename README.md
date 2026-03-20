@@ -2,9 +2,10 @@
   Hi, and welcome to my GitHub profile.
   Built around production systems, connected devices, and reliability-first engineering.
 -->
-<p align="center">
-  <img src="./hero-window.png" alt="Aditya Khetarpal terminal hero" width="100%" />
-</p>
+<div align="center">
+  <img src="./terminal-top-panel.svg" alt="Terminal intro panel" width="100%" />
+  <img src="./banner-2x.gif" alt="Aditya profile banner" width="100%" />
+</div>
 
 Reliable edge-to-cloud software engineer building production-grade firmware, native mobile, offline-first sync, and backend systems that stay correct, observable, and recoverable under real-world constraints.
 
