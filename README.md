@@ -6,12 +6,10 @@
   <img src="./terminal-top-panel.svg" alt="Terminal intro panel" width="100%" /><img src="./banner-2x.gif" alt="Aditya profile banner" width="100%" />
 </div>
 
-<br>
+---
 
-<div align="center">
-  <h3>Reliable edge-to-cloud software engineer.</h3>
-  <p>Building production-grade firmware, native mobile, offline-first sync, and backend systems that stay correct, observable, and recoverable under real-world constraints.</p>
-</div>
+**Reliable edge-to-cloud software engineering.**  
+Building production-grade firmware, native mobile, offline-first sync, and backend systems that stay correct, observable, and recoverable under real-world constraints.
 
 <br>
 
