@@ -5,12 +5,12 @@
 
 <div>
   <img src="./header-terminal.svg" alt="Terminal top bar" width="100%" />
-  <a href="https://git.io/typing-svg">
-    <img
-      src="https://readme-typing-svg.demolab.com/?font=VT323&size=34&duration=3000&pause=1000&color=F6C177&background=0D111700&vCenter=true&width=720&height=60&lines=%3E+Aditya+Khetarpal;%3E+Software+Engineer;%3E+Edge-to-Cloud+Platforms"
-      alt="terminal headline"
-    />
-  </a>
+<a href="https://git.io/typing-svg">
+  <img
+    src="https://readme-typing-svg.demolab.com/?font=VT323&size=26&duration=2800&pause=900&color=F6C177&background=0D111700&vCenter=true&width=620&height=44&lines=%3E+Aditya+Khetarpal;%3E+Software+Engineer;%3E+Edge-to-Cloud+Platforms"
+    alt="terminal headline"
+  />
+</a>
 </div>
 
 <p align="center">
