@@ -63,6 +63,7 @@ Backend APIs, queue-backed workers, and bounded processing pipelines designed fo
 **Infrastructure & Tooling** <br>
 <img src="https://skillicons.dev/icons?i=aws,gcp,docker,linux,terraform,githubactions,jenkins,postman,kafka,git,jest&theme=dark" height="36" alt="Infrastructure" />
 
+<br><br>
 
 <div align="center">
   <h2>Let's Connect</h2>
