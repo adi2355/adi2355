@@ -3,8 +3,7 @@
   Built around production systems, connected devices, and reliability-first engineering.
 -->
 <div align="center">
-  <img src="./terminal-top-panel.svg" alt="Terminal intro panel" width="100%" />
-  <img src="./banner-2x.gif" alt="Aditya profile banner" width="100%" />
+  <img src="./terminal-top-panel.svg" alt="Terminal intro panel" width="100%" /><img src="./banner-2x.gif" alt="Aditya profile banner" width="100%" />
 </div>
 
 <br>
