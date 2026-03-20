@@ -52,6 +52,7 @@ Backend APIs, queue-backed workers, and bounded processing pipelines designed fo
 
 <br>
 
+
 ## Core Stack
 
 <p>
@@ -63,11 +64,12 @@ Backend APIs, queue-backed workers, and bounded processing pipelines designed fo
 <br><br>
 
 <div align="center">
-  <h2>Open to Opportunities</h2>
-  <p>Looking to build reliable, production-grade systems? Let's connect.</p>
+  <h2>Let's Connect</h2>
+  <p>I am always open to discussing complex systems, challenging engineering problems, or compelling future opportunities.</p>
   <p>
-    <a href="YOUR_RESUME_LINK_HERE">View Resume</a> &nbsp;·&nbsp;
-    <a href="https://www.linkedin.com/in/aditya-khetarpal/">LinkedIn</a>
+    <a href="YOUR_RESUME_LINK_HERE">📄 View Resume</a> 
+    &nbsp;·&nbsp;
+    <a href="https://www.linkedin.com/in/aditya-khetarpal/"><img src="https://skillicons.dev/icons?i=linkedin" width="16" align="center" alt="LinkedIn" /> LinkedIn</a>
   </p>
 </div>
 
