@@ -17,19 +17,27 @@
       <stop offset="0%" stop-color="#ffffff" stop-opacity="0.06"/>
       <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
     </linearGradient>
+
+    <linearGradient id="bottomBlend" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0d131b" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#0d131b" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- top-rounded / flat-bottom outer shape -->
+    <path id="panelShape" d="
+      M 30 10
+      H 1170
+      Q 1184 10 1184 24
+      V 118
+      H 16
+      V 24
+      Q 16 10 30 10
+      Z
+    " />
   </defs>
 
-  <!-- unified outer body -->
-  <rect
-    x="16"
-    y="10"
-    width="1168"
-    height="108"
-    rx="14"
-    fill="url(#bodyFill)"
-    stroke="#202833"
-    stroke-opacity="0.9"
-  />
+  <!-- unified outer body with flat bottom -->
+  <use href="#panelShape" fill="url(#bodyFill)" stroke="#202833" stroke-opacity="0.9"/>
 
   <!-- title bar -->
   <rect
@@ -112,4 +120,7 @@
   >
     Software Engineer · Edge-to-Cloud Platforms
   </text>
+
+  <!-- subtle fade so the bottom feels open into the scene below -->
+  <rect x="16" y="102" width="1168" height="16" fill="url(#bottomBlend)" />
 </svg>
