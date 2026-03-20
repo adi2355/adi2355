@@ -35,7 +35,7 @@
   <line x1="0" y1="0.5" x2="1200" y2="0.5" class="seam"/>
 
   <!-- left context -->
-  <text x="32" y="27" class="path">~/github/adi2355/README.md</text>
+  <text x="32" y="27" class="path">~/github/adi2355/Github_Profile.txt</text>
 
   <!-- right close -->
   <text x="1168" y="27" text-anchor="end" class="eof">EOF</text>
