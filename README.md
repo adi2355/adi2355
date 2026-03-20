@@ -52,14 +52,19 @@ Backend APIs, queue-backed workers, and bounded processing pipelines designed fo
 
 <br>
 
-
 ## Core Stack
 
-<p>
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=c,cpp,java,kotlin,js,ts,py,bash,react,swift,nodejs,express,postgres,redis,prisma,sqlite,docker,linux,aws,terraform,github,gitlab,githubactions,jenkins,postman,pycharm,firebase,sentry&theme=dark&perline=14" width="570" alt="Languages, Frameworks, and Infrastructure" />
-  </a>
-</p>
+**Languages** <br>
+<img src="https://skillicons.dev/icons?i=c,cpp,swift,kotlin,java,ts,js,py,bash&theme=dark" height="36" alt="Languages" />
+
+**Data & Storage** <br>
+<img src="https://skillicons.dev/icons?i=sqlite,postgres,redis,prisma,firebase&theme=dark" height="36" alt="Databases" />
+
+**Frameworks & Observability** <br>
+<img src="https://skillicons.dev/icons?i=nodejs,express,react,sentry&theme=dark" height="36" alt="Frameworks" />
+
+**Infrastructure & Tooling** <br>
+<img src="https://skillicons.dev/icons?i=aws,docker,linux,terraform,githubactions,gitlab,jenkins,postman,pycharm,github&theme=dark" height="36" alt="Infrastructure" />
 
 <br><br>
 
@@ -69,7 +74,7 @@ Backend APIs, queue-backed workers, and bounded processing pipelines designed fo
   <p>
     <a href="YOUR_RESUME_LINK_HERE">📄 View Resume</a> 
     &nbsp;·&nbsp;
-    <a href="https://www.linkedin.com/in/aditya-khetarpal/"><img src="https://skillicons.dev/icons?i=linkedin" width="16" align="center" alt="LinkedIn" /> LinkedIn</a>
+    <a href="https://www.linkedin.com/in/aditya-khetarpal/"><img src="https://skillicons.dev/icons?i=linkedin" height="18" align="center" alt="LinkedIn" /> LinkedIn</a>
   </p>
 </div>
 
