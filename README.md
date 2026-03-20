@@ -8,44 +8,46 @@
 
 ---
 
-<br><br>
+**Reliable edge-to-cloud software engineer.**  
+Building production-grade firmware, native mobile, offline-first sync, and backend systems that stay correct, observable, and recoverable under real-world constraints.
 
-<div align="center">
-  <img src="./domains-bento.svg" alt="Core Domains and Expertise" width="100%" />
-</div>
+<br>
 
-<br><br>
+## Core Domains
 
-<h2 align="center">Selected Projects</h2>
+### Edge Firmware
+Dual-core RTOS firmware with clear separation between timing-sensitive paths and background work. Built for OTA recovery, deep sleep, physical calibration, and constrained on-device inference.
+> Microcontrollers · FreeRTOS · BLE / NimBLE · Binary Protocols · Low-Power Architecture
 
-<table width="100%" align="center">
-  <tr>
-    <td width="50%" valign="top">
-      <br>
-      <h3><a href="https://github.com/adi2355/YOUR-REPO-1">ESP32-S3 Edge Firmware</a></h3>
-      <p>Dual-core FreeRTOS firmware with binary BLE transport, OTA recovery, deep sleep, calibration logic, and on-device intelligence.</p>
-    </td>
-    <td width="50%" valign="top">
-      <br>
-      <h3><a href="https://github.com/adi2355/YOUR-REPO-2">Offline-First Mobile Platform</a></h3>
-      <p>Native BLE runtime, health ingestion pipelines, SQLite-first UX, and transactional sync architecture.</p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <br>
-      <h3><a href="https://github.com/adi2355/YOUR-REPO-3">Device Cloud & Sync Backend</a></h3>
-      <p>Queue-backed workers, realtime delivery, cursor sync, conflict resolution, telemetry, and reliability-focused services.</p>
-    </td>
-    <td width="50%" valign="top">
-      <br>
-      <h3><a href="https://github.com/adi2355/YOUR-REPO-4">TinyML Intelligence Lab</a></h3>
-      <p>Dataset logging, baseline-vs-model evaluation, on-device inference, and personalization on constrained hardware.</p>
-    </td>
-  </tr>
-</table>
+### Native Mobile Systems
+iOS and Android runtimes designed for BLE connectivity, restoration, and background-safe device communication. Architectures that stay coherent under intermittent networks and lifecycle limits.
+> Swift · Kotlin · React Native · HealthConnect · HealthKit Ingestion Pipelines
 
-<br><br>
+### Data Reliability & Sync
+Offline-first data systems built around local state as a durable interaction layer. Reconciliation paths designed to remain safe under retries, partial success, and long offline windows.
+> SQLite · Transactional Outbox · Cursor-Based Sync · PostgreSQL · Redis
+
+### Cloud & Worker Infrastructure
+Backend APIs, queue-backed workers, and bounded processing pipelines designed for correctness under failure. Includes tool-enabled intelligence grounded in trusted data paths and explicit controls.
+> Node.js · BullMQ · WebSockets · Edge AI / TinyML · Predictive Analytics
+
+<br>
+
+## Selected Projects
+
+* **[ESP32-S3 Edge Firmware Platform](https://github.com/adi2355/YOUR-REPO-NAME-1)**  
+  Dual-core FreeRTOS firmware with binary BLE transport, OTA recovery, deep sleep, calibration logic, and on-device intelligence.
+
+* **[Offline-First Mobile Device Platform](https://github.com/adi2355/YOUR-REPO-NAME-2)**  
+  Native BLE runtime, health ingestion pipelines, SQLite-first UX, and transactional sync architecture.
+
+* **[Device Cloud & Sync Backend](https://github.com/adi2355/YOUR-REPO-NAME-3)**  
+  Queue-backed workers, realtime delivery, cursor sync, conflict resolution, telemetry, and reliability-focused backend services.
+
+* **[TinyML Sensor Intelligence Lab](https://github.com/adi2355/YOUR-REPO-NAME-4)**  
+  Dataset logging, baseline-vs-model evaluation, on-device inference, and personalization on constrained hardware.
+
+<br>
 
 ## Core Stack
 
