@@ -7,7 +7,9 @@
   <img src="./banner-2x.gif" alt="Aditya profile banner" width="100%" />
 </div>
 
-Reliable edge-to-cloud software engineer building production-grade firmware, native mobile, offline-first sync, and backend systems that stay correct, observable, and recoverable under real-world constraints.
+<p align="center">
+  **Reliable edge-to-cloud software engineer** building production-grade firmware, native mobile, offline-first sync, and backend systems that stay correct, observable, and recoverable under real-world constraints.
+</p>
 
 ## Tools & Technologies
 
