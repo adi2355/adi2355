@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 48" role="img" aria-labelledby="desc">
+  <desc id="desc">A developer terminal status bar indicating the end of the file.</desc>
+
+  <!-- Unified dark background matching the terminal top panel -->
+  <rect width="1200" height="48" fill="#111821" />
+
+  <!-- Subtle top seam/border to separate it from the page -->
+  <line x1="0" y1="0" x2="1200" y2="0" stroke="#202833" stroke-width="2"/>
+
+  <!-- Left Green "Mode" Block (Matches the green dot from your top bar) -->
+  <path d="M 0 0 H 160 V 48 H 0 Z" fill="#58bb69"/>
+  <text x="80" y="29" fill="#111821" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="15" font-weight="bold" text-anchor="middle" letter-spacing="1">
+    SYS: ONLINE
+  </text>
+
+  <!-- Zsh/Vim Powerline Arrow transition -->
+  <polygon points="160,0 176,24 160,48" fill="#58bb69" />
+
+  <!-- File Path indicating the end of the README -->
+  <text x="200" y="29" fill="#94a0ac" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="14" letter-spacing="0.5">
+    ~/github/aditya-khetarpal/EOF
+  </text>
+
+  <!-- Status indicators on the right -->
+  <text x="960" y="29" fill="#94a0ac" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="14" text-anchor="end">
+    ENCODING: UTF-8
+  </text>
+  
+  <text x="1140" y="29" fill="#94a0ac" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="14" text-anchor="end">
+    SYNC: OK
+  </text>
+
+  <!-- Animated Blinking Cursor (Matches the gold text from your top bar) -->
+  <rect x="1158" y="15" width="10" height="18" fill="#f3c57c">
+    <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+  </rect>
+</svg>
