@@ -61,7 +61,7 @@ Backend APIs, queue-backed workers, and bounded processing pipelines designed fo
 <img src="https://skillicons.dev/icons?i=nodejs,express,spring,react,sentry,grafana,prometheus,cloudwatch&theme=dark" height="36" alt="Frameworks" />
 
 **Infrastructure & Tooling** <br>
-<img src="https://skillicons.dev/icons?i=aws,gcp,docker,linux,terraform,githubactions,jenkins,postman,kafka,github,jest&theme=dark" height="36" alt="Infrastructure" />
+<img src="https://skillicons.dev/icons?i=aws,gcp,docker,linux,terraform,githubactions,jenkins,postman,kafka,git,jest&theme=dark" height="36" alt="Infrastructure" />
 
 <br><br>
 
