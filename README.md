@@ -75,4 +75,8 @@ Backend APIs, queue-backed workers, and bounded processing pipelines designed fo
   </p>
 </div>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=1B2430&height=120&section=footer" alt="footer"/>
+<br><br>
+
+<div align="center">
+  <img src="./terminal-bottom-panel.svg" alt="Terminal Status Bar" width="100%" />
+</div>
