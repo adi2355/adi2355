@@ -35,7 +35,7 @@ Backend APIs, queue-backed workers, and bounded processing pipelines designed fo
 
 ## Selected Projects
 
-* **[ESP32-S3 Edge Firmware Platform](https://github.com/adi2355/YOUR-REPO-NAME-1)**  
+* **[ESP32-S3 Edge Firmware Platform](https://github.com/adi2355/esp32-sensor-firmware-platform)**  
   Dual-core FreeRTOS firmware with binary BLE transport, OTA recovery, deep sleep, calibration logic, and on-device intelligence.
 
 * **[Offline-First Mobile Device Platform](https://github.com/adi2355/YOUR-REPO-NAME-2)**  
