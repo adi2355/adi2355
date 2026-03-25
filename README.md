@@ -38,14 +38,14 @@ Backend APIs, queue-backed workers, and bounded processing pipelines designed fo
 * **[ESP32-S3 Edge Firmware Platform](https://github.com/adi2355/esp32-sensor-firmware-platform)**  
   Dual-core FreeRTOS firmware with binary BLE transport, OTA recovery, deep sleep, calibration logic, and on-device intelligence.
 
-* **[Offline-First Mobile Device Platform](https://github.com/adi2355/YOUR-REPO-NAME-2)**  
-  Native BLE runtime, health ingestion pipelines, SQLite-first UX, and transactional sync architecture.
+* **[Offline-First Mobile Platform](https://github.com/adi2355/offline-first-mobile-platform)**
+  Native BLE runtime, HealthKit ingestion pipelines, SQLite-first UX, transactional outbox sync, and cursor-based offline-first architecture.
 
-* **[Device Cloud & Sync Backend](https://github.com/adi2355/YOUR-REPO-NAME-3)**  
-  Queue-backed workers, realtime delivery, cursor sync, conflict resolution, telemetry, and reliability-focused backend services.
+* **[Cloud-Native Backend Platform](https://github.com/adi2355/cloud-native-backend-platform)**
+  Event-driven Node.js/TypeScript backend with transactional outbox, multi-device sync, idempotent health ingestion, CQRS projections, and AI with PHI redaction.
 
-* **[TinyML Sensor Intelligence Lab](https://github.com/adi2355/YOUR-REPO-NAME-4)**  
-  Dataset logging, baseline-vs-model evaluation, on-device inference, and personalization on constrained hardware.
+* **[Cross-Platform Shared Contracts](https://github.com/adi2355/cross-platform-shared-contracts)**
+  Canonical Zod schemas, sync configuration, conflict resolution rules, and health metric definitions ensuring type-safety across the entire distributed platform.
 
 <br>
 
