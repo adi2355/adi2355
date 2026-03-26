@@ -11,11 +11,7 @@
 **Reliable edge-to-cloud software engineer.**
 Building production-grade firmware, native mobile, offline-first sync, and backend systems that stay correct, observable, and recoverable under real-world constraints.
 
-## Platform Architecture
 
-<div align="center">
-  <img src="./platform.svg" alt="End-to-End Platform: Runtime Containers and Data Flow" width="100%" />
-</div>
 
 ---
 
@@ -90,7 +86,15 @@ Backend APIs, queue-backed workers, and bounded processing pipelines designed fo
 
 ---
 
-## Selected Projects
+## Platform Architecture
+
+<div align="center">
+  <img src="./platform.svg" alt="End-to-End Platform: Runtime Containers and Data Flow" width="100%" />
+</div>
+
+---
+
+## Platform Projects
 
 | Repository | Focus |
 |:---|:---|
