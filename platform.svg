@@ -306,33 +306,33 @@
 
 
   <!-- ========================================================= -->
-  <!-- COLUMN 4: EXTERNAL INFRASTRUCTURE (x=1340, w=220)         -->
+  <!-- COLUMN 4: EXTERNAL INFRASTRUCTURE (x=1310, w=220)         -->
   <!-- ========================================================= -->
-  <text x="1340" y="180" class="groupTitle">Cloud Infra &amp; 3rd Party</text>
+  <text x="1310" y="180" class="groupTitle">Cloud Infra &amp; 3rd Party</text>
 
   <g filter="url(#shadow)">
-    <rect x="1340" y="200" width="220" height="430" rx="16" fill="url(#cloudGrad)" stroke="#334155" stroke-width="2"/>
-    <rect x="1340" y="200" width="8" height="430" rx="4" fill="url(#slateAccent)"/>
+    <rect x="1310" y="200" width="220" height="430" rx="16" fill="url(#cloudGrad)" stroke="#334155" stroke-width="2"/>
+    <rect x="1310" y="200" width="8" height="430" rx="4" fill="url(#slateAccent)"/>
 
-    <text x="1364" y="234" class="cardTitle">AWS &amp; External APIs</text>
+    <text x="1334" y="234" class="cardTitle">AWS &amp; External APIs</text>
 
-    <rect x="1364" y="260" width="190" height="40" rx="6" fill="#1E293B" stroke="#475569"/>
-    <text x="1380" y="285" class="listItem">AWS Cognito (Auth/IAM)</text>
+    <rect x="1334" y="260" width="190" height="40" rx="6" fill="#1E293B" stroke="#475569"/>
+    <text x="1350" y="285" class="listItem">AWS Cognito (Auth/IAM)</text>
 
-    <rect x="1364" y="315" width="190" height="40" rx="6" fill="#1E293B" stroke="#475569"/>
-    <text x="1380" y="340" class="listItem">Google OAuth (Federation)</text>
+    <rect x="1334" y="315" width="190" height="40" rx="6" fill="#1E293B" stroke="#475569"/>
+    <text x="1350" y="340" class="listItem">Google OAuth (Federation)</text>
 
-    <rect x="1364" y="370" width="190" height="40" rx="6" fill="#1E293B" stroke="#475569"/>
-    <text x="1380" y="395" class="listItem">AWS Secrets Manager</text>
+    <rect x="1334" y="370" width="190" height="40" rx="6" fill="#1E293B" stroke="#475569"/>
+    <text x="1350" y="395" class="listItem">AWS Secrets Manager</text>
 
-    <rect x="1364" y="425" width="190" height="40" rx="6" fill="#1E293B" stroke="#475569"/>
-    <text x="1380" y="450" class="listItem">Anthropic AI (LLM Engine)</text>
+    <rect x="1334" y="425" width="190" height="40" rx="6" fill="#1E293B" stroke="#475569"/>
+    <text x="1350" y="450" class="listItem">Anthropic AI (LLM Engine)</text>
 
-    <rect x="1364" y="480" width="190" height="40" rx="6" fill="#1E293B" stroke="#475569"/>
-    <text x="1380" y="505" class="listItem">AWS S3 (Blob Storage)</text>
+    <rect x="1334" y="480" width="190" height="40" rx="6" fill="#1E293B" stroke="#475569"/>
+    <text x="1350" y="505" class="listItem">AWS S3 (Blob Storage)</text>
 
-    <rect x="1364" y="535" width="190" height="40" rx="6" fill="#1E293B" stroke="#475569"/>
-    <text x="1380" y="560" class="listItem">CloudWatch &amp; OTEL</text>
+    <rect x="1334" y="535" width="190" height="40" rx="6" fill="#1E293B" stroke="#475569"/>
+    <text x="1350" y="560" class="listItem">CloudWatch &amp; OTEL</text>
   </g>
 
 
@@ -412,9 +412,9 @@
   <!-- Worker Service -> Redis Cache -->
   <path d="M 940 390 L 940 450 L 900 450 L 900 530" stroke="#38BDF8" stroke-width="3" fill="none" marker-end="url(#arrowData)"/>
   <!-- Web Service -> External Services (Auth, Secrets) -->
-  <path d="M 890 200 L 890 185 L 1332 185 L 1332 280 L 1340 280" stroke="#38BDF8" stroke-width="3" fill="none" marker-end="url(#arrowData)"/>
+  <path d="M 890 200 L 890 185 L 1302 185 L 1302 280 L 1310 280" stroke="#38BDF8" stroke-width="3" fill="none" marker-end="url(#arrowData)"/>
   <!-- Worker Service -> External Services (AI, Storage, OTEL) -->
-  <path d="M 1210 320 L 1340 320" stroke="#38BDF8" stroke-width="3" fill="none" marker-end="url(#arrowData)"/>
+  <path d="M 1210 320 L 1310 320" stroke="#38BDF8" stroke-width="3" fill="none" marker-end="url(#arrowData)"/>
 
   <!-- === Arrow Labels (rendered on top of all paths for readability) === -->
 
