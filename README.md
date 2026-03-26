@@ -8,6 +8,19 @@
 
 ---
 
+**Reliable edge-to-cloud software engineer.**
+Building production-grade firmware, native mobile, offline-first sync, and backend systems that stay correct, observable, and recoverable under real-world constraints.
+
+<br>
+
+## System Architecture
+
+<div align="center">
+  <img src="./platform.svg" alt="System Architecture: Runtime Containers and Data Flow" width="100%" />
+</div>
+
+---
+
 ## Core Stack
 
 <table>
