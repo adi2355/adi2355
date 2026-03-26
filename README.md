@@ -94,7 +94,7 @@ Backend APIs, queue-backed workers, and bounded processing pipelines designed fo
 
 ---
 
-## Platform Projects
+## Platform Domains
 
 | Repository | Focus |
 |:---|:---|
