@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1130" viewBox="0 0 1600 1130" role="img" aria-labelledby="title desc">
-  <title id="title">System Architecture: Runtime Containers &amp; Data Flow</title>
+  <title id="title">End-to-End Platform: Runtime Containers &amp; Data Flow</title>
   <desc id="desc">Definitive component topology showing the strict separation of synchronous API requests, offline-first clients, and asynchronous background processing.</desc>
 
   <defs>
@@ -120,7 +120,7 @@
   <rect x="24" y="24" width="1552" height="1082" rx="20" fill="none" stroke="#1E293B" stroke-width="2"/>
 
   <!-- Header -->
-  <text x="50" y="80" class="title">System Architecture: Runtime Containers &amp; Data Flow</text>
+  <text x="50" y="80" class="title">End-to-End Platform: Runtime Containers &amp; Data Flow</text>
   <text x="50" y="110" class="subtitle">Definitive component topology showing the strict separation of synchronous API requests, offline-first clients, and asynchronous background processing.</text>
 
   <!-- Legend -->
