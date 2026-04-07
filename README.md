@@ -96,7 +96,7 @@ Backend APIs, queue-backed workers, and bounded processing pipelines designed fo
 | [**ESP32-S3 Edge Firmware Platform**](https://github.com/adi2355/esp32-sensor-firmware-platform) | Dual-core FreeRTOS firmware with binary BLE transport, OTA recovery, deep sleep, calibration, and on-device inference |
 | [**Offline-First Mobile Platform**](https://github.com/adi2355/offline-first-mobile-platform) | Native BLE runtime, HealthKit ingestion pipelines, SQLite-first UX, transactional outbox sync, and cursor-based architecture &nbsp; [![TestFlight](https://img.shields.io/badge/TestFlight-0D96F6?style=flat-square&logo=apple&logoColor=white)](https://testflight.apple.com/join/PJQFcf2G) |
 | [**Cloud-Native Backend Platform**](https://github.com/adi2355/cloud-native-backend-platform) | Event-driven Node.js/TypeScript backend with transactional outbox, multi-device sync, idempotent health ingestion, CQRS projections, and AI with PHI redaction |
-| [**Cross-Platform Shared Contracts**](https://github.com/adi2355/cross-platform-shared-contracts) | Canonical Zod schemas, sync configuration, conflict resolution rules, and health metric definitions ensuring type-safety across the platform |
+| [**Cross-Platform Shared Contracts**](https://github.com/adi2355/cross-platform-shared-contracts) | Canonical sync configuration, conflict resolution rules, and health metric definitions ensuring type-safety across the platform |
 
 ---
 
