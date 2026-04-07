@@ -49,7 +49,7 @@ Every device and client treats its own storage as ground truth. RTC ring buffers
 
 ### 2. Design for recovery, not just the happy path
 OTA dual-bank rollback on firmware. Crash-safe sync cursors and conflict resolution on mobile. Dead-letter queues and idempotent replay on the backend. Every subsystem assumes failure is a runtime constant, not an edge case.
-> Goal: Every failure mode has a named recovery mechanism — not a silent fallback.
+> Goal: Every failure mode has a named recovery mechanism, no silent fallbacks.
 
 ### 3. Enforce idempotency at every trust boundary
 Sequence numbers and CRC integrity in the BLE protocol. Cursor-based sync with deterministic conflict resolution on mobile. Request-level deduplication and transactional outbox delivery on the backend. Retries, duplicates, and reordering are expected across every boundary.
