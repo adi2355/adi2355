@@ -102,7 +102,7 @@ Backend APIs, queue-backed workers, and bounded processing pipelines designed fo
 
 
 <div align="center">
-  <p>Open to discussing complex systems, hard engineering problems, or compelling opportunities.</p>
+  <p>Open to discussing complex systems, hard engineering problems, or compelling opportunities</p>
   <p>
     <a href="https://www.linkedin.com/in/aditya-khetarpal/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
     &nbsp;
