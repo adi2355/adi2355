@@ -1,21 +1,31 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 56" role="img" aria-labelledby="title desc">
   <title id="title">Terminal footer</title>
-  <desc id="desc">A restrained Apple Terminal-style footer panel with matching border treatment and rounded lower corners.</desc>
+  <desc id="desc">A restrained Apple Terminal-style footer with path, editor modeline, and EOF marker — matched border treatment and rounded lower corners.</desc>
 
   <defs>
+    <!-- body: slightly deeper three-stop gradient for quiet vertical dimension -->
     <linearGradient id="bodyFill" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#111821"/>
-      <stop offset="100%" stop-color="#0d131b"/>
+      <stop offset="0%"   stop-color="#121a24"/>
+      <stop offset="55%"  stop-color="#0f161f"/>
+      <stop offset="100%" stop-color="#0b1118"/>
     </linearGradient>
 
+    <!-- faint top highlight to match the header panel -->
     <linearGradient id="topGlow" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.05"/>
+      <stop offset="0%"   stop-color="#ffffff" stop-opacity="0.06"/>
       <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
     </linearGradient>
 
+    <!-- deeper bottom fade so the rounded base feels weighted -->
     <linearGradient id="bottomBlend" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#0d131b" stop-opacity="0"/>
-      <stop offset="100%" stop-color="#0d131b" stop-opacity="0.18"/>
+      <stop offset="0%"   stop-color="#0b1118" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#060a0f" stop-opacity="0.32"/>
+    </linearGradient>
+
+    <!-- warm amber gradient for the EOF glyph: muted, not neon -->
+    <linearGradient id="eofAccent" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"   stop-color="#f6d29a"/>
+      <stop offset="100%" stop-color="#e3b074"/>
     </linearGradient>
 
     <!-- inset by 6px on both sides to match the top panel logic -->
@@ -32,38 +42,61 @@
   </defs>
 
   <!-- outer panel -->
-  <use href="#footerShape" fill="url(#bodyFill)" stroke="#202833" stroke-width="1"/>
+  <use href="#footerShape" fill="url(#bodyFill)" stroke="#232c38" stroke-width="1"/>
 
   <!-- subtle inner top seam so it feels intentionally framed -->
-  <line x1="6" y1="0.5" x2="1194" y2="0.5" stroke="#2a3440" stroke-opacity="0.9"/>
+  <line x1="6" y1="0.5" x2="1194" y2="0.5" stroke="#2e3947" stroke-opacity="0.9"/>
 
   <!-- faint top highlight, same family as the top banner -->
   <rect x="7" y="1" width="1186" height="10" fill="url(#topGlow)"/>
 
-  <!-- content -->
-  <text
-    x="32"
-    y="34"
-    fill="#94a0ac"
-    font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
-    font-size="14"
-    letter-spacing="0.2"
-  >
-    ~/github/adi2355/Github_Profile.txt
-  </text>
+  <!-- tiny doc icon anchoring the left side -->
+  <g transform="translate(24, 20)" fill="none" stroke="#707b89" stroke-width="1.1" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M1.2 0.8 H8 L11.8 4.6 V15.4 H1.2 Z"/>
+    <path d="M8 0.8 V4.6 H11.8"/>
+    <line x1="3.4" y1="8.2"  x2="9.6" y2="8.2"  stroke-opacity="0.55"/>
+    <line x1="3.4" y1="10.8" x2="9.6" y2="10.8" stroke-opacity="0.55"/>
+    <line x1="3.4" y1="13.4" x2="7.0" y2="13.4" stroke-opacity="0.55"/>
+  </g>
 
+  <!-- path: dim directory, brighter filename for quiet hierarchy -->
   <text
-    x="1168"
-    y="34"
-    text-anchor="end"
-    fill="#f3c57c"
+    x="46"
+    y="35"
     font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
-    font-size="14"
-    letter-spacing="0.3"
-  >
-    EOF
-  </text>
+    font-size="13.5"
+    letter-spacing="0.25"
+  ><tspan fill="#7b8694">~/github/adi2355/</tspan><tspan fill="#cbd4de">Github_Profile.txt</tspan></text>
+
+  <!-- editor-style modeline: encoding · line-ending, in a quieter tone -->
+  <text
+    x="1050"
+    y="35"
+    text-anchor="end"
+    fill="#6b7582"
+    font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
+    font-size="12"
+    letter-spacing="0.35"
+  >UTF-8<tspan fill="#3a4452" dx="6">·</tspan><tspan fill="#6b7582" dx="6">LF</tspan><tspan fill="#3a4452" dx="6">·</tspan><tspan fill="#6b7582" dx="6">markdown</tspan></text>
+
+  <!-- hairline divider before the EOF accent -->
+  <line x1="1128" y1="18" x2="1128" y2="38" stroke="#2a3240" stroke-width="1"/>
+
+  <!-- amber EOF glyph: gradient gives it a gentle warmth without shouting -->
+  <text
+    x="1170"
+    y="35"
+    text-anchor="end"
+    fill="url(#eofAccent)"
+    font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
+    font-size="13.5"
+    font-weight="500"
+    letter-spacing="0.55"
+  >EOF</text>
 
   <!-- quiet bottom density so the panel resolves cleanly -->
   <rect x="6" y="40" width="1188" height="16" fill="url(#bottomBlend)"/>
+
+  <!-- whisper of an inner highlight just above the rounded base for refinement -->
+  <line x1="22" y1="45.5" x2="1178" y2="45.5" stroke="#ffffff" stroke-opacity="0.022"/>
 </svg>
