@@ -136,7 +136,7 @@
     font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
     font-size="14"
     letter-spacing="0.2"
-  ><tspan fill="#a4afbb">Software Engineer</tspan><tspan fill="#4a5260" dx="8">·</tspan><tspan fill="#a4afbb" dx="8">Edge-to-Cloud Platforms</tspan></text>
+  ><tspan fill="#a4afbb">Software Engineer(AI)</tspan><tspan fill="#4a5260" dx="8">·</tspan><tspan fill="#a4afbb" dx="8">Edge-to-Cloud Platforms</tspan></text>
 
   <!-- subtle fade so the bottom feels open into the scene below -->
   <rect x="6" y="144" width="1188" height="16" fill="url(#bottomBlend)"/>
